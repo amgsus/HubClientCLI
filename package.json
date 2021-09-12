@@ -1,0 +1,20 @@
+{
+  "name": "@amgsus/hub-client-cli",
+  "version": "0.1.0",
+  "description": "Provides bunch of convenient scripts for working with Hub server",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "A.G.",
+  "license": "MIT",
+  "dependencies": {
+    "@amgsus/hub-client": "^0.1.0",
+    "colors": "^1.4.0",
+    "commander": "^8.2.0"
+  },
+  "bin": {
+    "hubc-cli": "./index.mjs"
+  }
+}
